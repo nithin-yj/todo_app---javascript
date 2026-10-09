@@ -1,0 +1,68 @@
+*{
+    padding:0%;
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #071c5a, #dc925a);
+    padding: 10px;
+
+}
+.todoapp{
+    width: 100%;
+    max-width: 540px;
+    background: white;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+
+    h2{
+        color:blue;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+    img{
+        width: 30px;
+        margin-left: 10px;
+    }
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #aeb1b9;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+
+    input{
+        flex: 1;
+        border: none;
+        outline: none;
+        background: transparent;
+        padding: 15px;
+        font-weight: 45px;
+        font-size: 18px;
+
+    }
+
+    button{
+        border: none;
+        outline: none;
+        padding: 16px 50px;
+        background: #233671;
+        color:white;
+        font-size: 20px;
+        border-radius: 45px;
+        cursor: pointer;
+
+    }
+
+}
+
